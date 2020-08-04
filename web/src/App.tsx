@@ -1,6 +1,7 @@
 import React from 'react'
 import Landing from './pages/Landing'
 import './assets/styles/global.css'
+import Routes from './routes';
 
 
 //componentes são funções que retornam um HTML
@@ -10,7 +11,7 @@ import './assets/styles/global.css'
 //Estado
 function App() {
   return (
-    <Landing/>
+    <Routes/>
   );
 }
 
